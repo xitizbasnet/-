@@ -1,25 +1,36 @@
 # 𝙏𝙝𝙚 𝙇𝙞𝙣𝙪𝙭 𝙋𝙧𝙞𝙫𝙞𝙡𝙚𝙜𝙚 𝙀𝙨𝙘𝙖𝙡𝙖𝙩𝙞𝙤𝙣 𝘾𝙝𝙚𝙖𝙩𝙨𝙝𝙚𝙚𝙩
 𝙏𝙝𝙚 𝙇𝙞𝙣𝙪𝙭 𝙋𝙧𝙞𝙫𝙞𝙡𝙚𝙜𝙚 𝙀𝙨𝙘𝙖𝙡𝙖𝙩𝙞𝙤𝙣 𝘾𝙝𝙚𝙖𝙩𝙨𝙝𝙚𝙚𝙩
 
-[Forwarded from TechnicalGrey]
-𝙏𝙝𝙚 𝙇𝙞𝙣𝙪𝙭 𝙋𝙧𝙞𝙫𝙞𝙡𝙚𝙜𝙚 𝙀𝙨𝙘𝙖𝙡𝙖𝙩𝙞𝙤𝙣 𝘾𝙝𝙚𝙖𝙩𝙨𝙝𝙚𝙚𝙩
+
 
 Operating System
 What's the distribution type? What version?
 
+
 cat /etc/issue
+
 cat /etc/*-release
+
 cat /etc/lsb-release
+
+
 
 
 What's the kernel version? Is it 64-bit?
 
+
 cat /proc/version
+
 uname -a
+
 uname -mrs
+
 rpm -q kernel
+
 dmesg | grep Linux
+
 ls /boot | grep vmlinuz-
+
 
 What can be learnt from the environmental variables?
 
